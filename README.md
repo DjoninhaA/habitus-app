@@ -2,6 +2,17 @@
 
 Um aplicativo Flutter para gerenciamento de hábitos.
 
+seguem algumas imagens do app funcionando:
+
+![image](https://github.com/user-attachments/assets/ed28a351-9163-4080-a573-0a254db5740f)
+![image](https://github.com/user-attachments/assets/a4b01046-c6f3-45c0-b6c0-dcd688ab4dd4)
+![image](https://github.com/user-attachments/assets/9239c864-34f1-4165-9f46-15d701db87bd)
+![image](https://github.com/user-attachments/assets/b9704e5f-855a-4f58-8b8e-a09ae7c38808)
+![image](https://github.com/user-attachments/assets/0374e720-0579-4d65-b32d-600de1889d0f)
+
+
+
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
