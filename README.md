@@ -1,16 +1,74 @@
-# habitus
+# Habitus
 
-A new Flutter project.
+Um aplicativo Flutter para gerenciamento de hábitos.
 
-## Getting Started
+## Pré-requisitos
 
-This project is a starting point for a Flutter application.
+Antes de começar, certifique-se de ter instalado:
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) (SDK ^3.7.0)
+- [Dart](https://dart.dev/get-dart)
+- [Android Studio](https://developer.android.com/studio) (para desenvolvimento Android)
+- [Xcode](https://developer.apple.com/xcode/) (para desenvolvimento iOS - apenas macOS)
+- [VS Code](https://code.visualstudio.com/) (opcional, mas recomendado)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Configuração do Ambiente
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone o repositório:
+
+```bash
+git clone [git@github.com:DjoninhaA/habitus-app.git]
+cd habitus
+```
+
+2. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+## Executando o Projeto
+
+### Para desenvolvimento
+
+1. Conecte um dispositivo ou inicie um emulador
+
+2. Execute o projeto:
+
+```bash
+flutter run
+```
+
+### Para criar uma build de release
+
+#### Android
+
+```bash
+flutter build apk --release
+```
+
+O APK será gerado em `build/app/outputs/flutter-apk/app-release.apk`
+
+#### iOS (apenas em macOS)
+
+```bash
+flutter build ios --release
+```
+
+Abra o Xcode e distribua através dele.
+
+## Estrutura do Projeto
+
+```
+lib/
+  ├── main.dart          # Ponto de entrada do aplicativo
+  ├── models/           # Modelos de dados
+  ├── screens/          # Telas do aplicativo
+  └── widgets/          # Widgets reutilizáveis
+```
+
+## Dependências Principais
+
+- Flutter SDK
+- shared_preferences: ^2.2.2 - Para persistência de dados
+- cupertino_icons: ^1.0.8 - Ícones iOS style
